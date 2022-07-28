@@ -1,10 +1,15 @@
 import '../Style/Header.css';
+import 'tippy.js/dist/tippy.css';
 
 import React from 'react';
 
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import SearchIcon from '@mui/icons-material/Search';
+import Tippy from '@tippyjs/react';
+
+import LoginT from './LoginT';
+import MoreT from './MoreT';
 
 const Header = () => {
   return (
@@ -30,10 +35,14 @@ const Header = () => {
             <SearchIcon/>
         </div>
         <div className="header_third">
+            <Tippy  content={<LoginT/>} interactive={true}>
             <button>Login</button>
+            </Tippy>  
         </div>
         <div className="header_fourth">
+            <Tippy content={<MoreT/>} interactive={true}>
             <span>More</span>
+            </Tippy>
             <ExpandMoreIcon/>
         </div>
         <div className="header_five">

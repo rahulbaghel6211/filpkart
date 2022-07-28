@@ -1,0 +1,15 @@
+.logint_in{
+    display: flex;
+    align-items: center;
+     padding:  0px 7px;
+}
+.logint_in>.MuiSvgIcon-root{
+    margin-right:10px;
+}
+.logint_in>img{
+    margin-right: 10px;
+}
+.logint{
+    background-color: white;
+    color: black;
+}
