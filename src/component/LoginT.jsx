@@ -12,35 +12,41 @@ const LoginT = () => {
   return (
     <div className='logint'>
         <div className="logint_in">
-            <h2>New Customer?</h2>
-            <h2>Signup</h2>
+            <h3>New Customer?</h3>
+            <h3 style={{color:'blue'}}>Signup</h3>
         </div>
+         <hr/>
         <div className="logint_in">
-            <AccountCircleIcon/>
+            <AccountCircleIcon style={{color:'blue'}}/>
             <p>My Profile</p>
         </div>
+
+ <hr/>
         <div className="logint_in">
             <img src='https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png' alt=''/>
             <p>Filpkart Plus zone</p>
 
         </div>
+        <hr/>
         <div className="logint_in">
-            <StoreIcon/>
+            <StoreIcon style={{color:'blue'}}/>
             <p>Orders</p>
         </div>
+        <hr/>
         <div className="logint_in">
-         <FavoriteIcon/>
+         <FavoriteIcon style={{color:'blue'}}/>
          <p>Wishlist</p>
         </div>
+        <hr/>
         <div className="logint_in">
-            <ConfirmationNumberIcon/>
+            <ConfirmationNumberIcon style={{color:'blue'}}/>
             <p>Reward</p>
 
         </div>
+        <hr/>
         <div className="logint_in">
-        <CardGiftcardIcon/>
+        <CardGiftcardIcon style={{color:'blue'}}/>
         <p>Gift Card</p>
-
         </div>
     </div>
   )

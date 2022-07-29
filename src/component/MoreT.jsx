@@ -13,27 +13,30 @@ const MoreT = () => {
     <div className='moret'>
 
         <div className='moret_in'>
-         <NotificationsIcon></NotificationsIcon>
-         <p>Notification</p> 
+         <NotificationsIcon style={{color:'blue'}}></NotificationsIcon>
+         <p>Notification Preferences</p> 
         </div>
+        <hr/>
         <div className='moret_in'>
-            <MonetizationOn/>
+            <MonetizationOn style={{color:'blue'}}/>
             <p>Sell On FilKart</p>
 
         </div>
+        <hr/>
         <div className='moret_in'>
-            <LiveHelpIcon/>
+            <LiveHelpIcon style={{color:'blue'}}/>
             <p>24*7 customer Care</p>
 
         </div>
+        <hr/>
         <div className='moret_in'>
-            <TrendingUpIcon/>
+            <TrendingUpIcon style={{color:'blue'}}/>
             <p>Advertise</p>
 
            </div>
+           <hr/>
         <div className='moret_in'>
-            <GetAppIcon/>
-
+            <GetAppIcon style={{color:'blue'}}/>
             <p>Download App</p>
         </div>
     </div>

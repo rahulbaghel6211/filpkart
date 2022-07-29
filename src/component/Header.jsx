@@ -1,5 +1,6 @@
 import '../Style/Header.css';
 import 'tippy.js/dist/tippy.css';
+import 'tippy.js/themes/light.css';
 
 import React from 'react';
 
@@ -35,12 +36,12 @@ const Header = () => {
             <SearchIcon/>
         </div>
         <div className="header_third">
-            <Tippy  content={<LoginT/>} interactive={true}>
+            <Tippy theme='light'  content={<LoginT/>} interactive={true} offset={[15,35]}>
             <button>Login</button>
             </Tippy>  
         </div>
         <div className="header_fourth">
-            <Tippy content={<MoreT/>} interactive={true}>
+            <Tippy theme='light' content={<MoreT/>} interactive={true}>
             <span>More</span>
             </Tippy>
             <ExpandMoreIcon/>
