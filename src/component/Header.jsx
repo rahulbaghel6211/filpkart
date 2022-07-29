@@ -36,7 +36,7 @@ const Header = () => {
             <SearchIcon/>
         </div>
         <div className="header_third">
-            <Tippy theme='light'  content={<LoginT/>} interactive={true} offset={[15,35]}>
+            <Tippy theme='light'  content={<LoginT/>} interactive={true}>
             <button>Login</button>
             </Tippy>  
         </div>
